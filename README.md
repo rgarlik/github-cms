@@ -11,7 +11,7 @@ After cloning the repo and downloading all the packages using `npm install`, you
 | `GITHUB_TOKEN`      | A GitHub access token generated [here](https://github.com/settings/tokens) for the user which should be responsible for uploading the blog posts into the project repo |
 | `GITHUB_REPO_OWNER`      | Name of the owner of the repo to which posts should be uploaded |
 | `GITHUB_REPO_NAME`      | Name of the repo to which posts should be uploaded |
-| `DEMO_MODE`      | If this is set to anything other than empty, the website won't upload things to GitHub, I have this enabled on the demo site so I don't get spammed with commits. |
+| `DEMO_MODE`      | If this is set to `yes`, the website won't upload things to GitHub, I have this enabled on the demo site so I don't get spammed with commits. |
 
 After setting these variables, you can then launch the dev server by running: 
 ```shell
