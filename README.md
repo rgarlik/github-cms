@@ -1,6 +1,8 @@
 # GitHub CMS
 A simple experimental blog web service that uses its own GitHub repo as its CMS system for blog posts. This assumes the page is automatically re-built after every commit by a (most likely free) build service such as [Vercel](https://vercel.com/). This repo also uses serverless [API functions](https://nextjs.org/docs/api-routes/introduction) provided by [Next.js](https://nextjs.org/) to upload new posts through GitHub's [octokit API](https://github.com/octokit) into the repo. You can get all of this for free through Vercel's [Hobby](https://vercel.com/pricing) plan. You're basically limited by Vercel's [limits](https://vercel.com/docs/concepts/limits/overview) on serverless function bandwidth, execution time etc. but a small blog site can be run completely free without a hosted database this way.
 
+[This](https://github.com/rgarlik/github-cms/commit/abc165b129c9eb18f2384259e4e84f0393d72802) is an example of a commit made from someone posting something on the website. Ideally, you'd have a second "bot" account to make these kinds of posts, I just used my own. 
+
 ## 🔨 Getting it to run
 After cloning the repo and downloading all the packages using `npm install`, you need to set a few enviromental variables in your shell before starting the next dev server. If you're deploying the site to Vercel, you'll have to set the env variables in your dashboard, you can read about it [here](https://vercel.com/docs/concepts/projects/environment-variables).
 
