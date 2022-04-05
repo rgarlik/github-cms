@@ -13,6 +13,11 @@ export default async (
   // eslint-disable-next-line consistent-return
 ): Promise<void> => {
   // eslint-disable-next-line consistent-return
+
+  if(process.env.DEMO_MODE) {
+    return badRequest(res, `Demo mode is enabled. Not accepting any new posts. Try hosting the website yourself to see it in action`);
+  }
+  
   if (req.body === `` || !req.body) {
     return badRequest(res, `Blog post contents are empty`);
   }
