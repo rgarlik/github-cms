@@ -24,19 +24,19 @@ The idea behind this project came from wanting to host a simple blog without spe
 
 The website is deployed from a GitHub repo and all the blog posts are built statically into it:
 
-!(Diagram 1)[/pictures/git_cms_1.png]
+![Diagram 1](/pictures/git_cms_1.png)
 
 A user writes up a new blog post and triggers a serverless function that commits it to the GitHub repo using GitHub's octo API.
 
-!(Diagram 2)[/pictures/git_cms_2.png]
+![Diagram 2](/pictures/git_cms_2.png)
 
 This new commit triggers a re-build of the website with the new blog post in it.
 
-!(Diagram 3)[/pictures/git_cms_3.png]
+![Diagram 3](/pictures/git_cms_3.png)
 
 Changes are now live.
 
-!(Diagram 4)[/pictures/git_cms_4.png]
+![Diagram 4](/pictures/git_cms_4.png)
 
 ## ⚠ Is this safe to use for production?
 No, this is not secure at all and you're probably gonna hit your Hobby tier limits pretty soon, not to mention people can spam your GitHub repo with commits. However if you know what you're doing and you have the time to implement some securiy, feel free to use this if it fits your niche needs.
