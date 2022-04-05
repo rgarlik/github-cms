@@ -42,3 +42,5 @@ Changes are now live.
 
 ## ⚠ Is this safe to use for production?
 No, this is not secure at all and you're probably gonna hit your Hobby tier limits pretty soon, not to mention people can spam your GitHub repo with commits. However if you know what you're doing and you have the time to implement some securiy, feel free to use this if it fits your niche needs.
+
+Note - apostrophes in the title mess up the whole markdown file and the site won't compile.
