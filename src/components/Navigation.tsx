@@ -30,7 +30,7 @@ const Navigation: React.FC<NavigationProps> = (
             size="medium"
             color="info"
           >
-            Ďalej
+            Next
           </Button>
         </Navbar.Item>
       </Navbar.Segment>
